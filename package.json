@@ -1,0 +1,20 @@
+{
+  "name": "open-docs",
+  "version": "1.0.0",
+  "description": "This repo is for open docs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ILopatenko/open-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ILopatenko/open-docs/issues"
+  },
+  "homepage": "https://github.com/ILopatenko/open-docs#readme",
+  "keywords": []
+}
