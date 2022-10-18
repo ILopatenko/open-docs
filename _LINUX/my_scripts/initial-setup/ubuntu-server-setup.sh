@@ -62,7 +62,7 @@ nfs(){
     else 
     sudo mkdir /media/ryzen2ter
     fi
-sudo echo "#AUTOMOUNT NFS SHARE trueNAS" >> /etc/fstab
+sudo echo "#AUTOMOUNT NFS SHARE trueNAS ryzen server" >> /etc/fstab
 sudo echo "192.168.0.201:/mnt/ryzen2ter/dataSetRyzen2ter /media/ryzen2ter nfs defaults 0 0" >> /etc/fstab
 sudo echo "192.168.0.201:/mnt/ryzen4ter/dataSetRyzen4ter /media/ryzen4ter nfs defaults 0 0" >> /etc/fstab
 }
