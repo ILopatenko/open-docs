@@ -4,7 +4,7 @@ negative, and zero. Print the decimal value of each fraction on a new line with 
 
 const testArr = [-4, 3, -9, 0, 4, 1];
 
-//This is a solution with 2 inner functions (helpers)
+//This is a solution with 2 inner functions (helpers`)
 const plusMinus = (arr) => {
   const length = arr.length;
 
