@@ -48,3 +48,22 @@ const testMatrix = generateSquareMatrix(6);
 console.log(testMatrix);
 const result = flippingMatrix(testMatrix);
 console.log(result);
+
+
+//Refactored
+const flippingMatrix=matrix=>{
+    const length=matrix.length
+    const halfLength=length/2
+    let maxSum=0
+    const returnBigger=(a,b)=>a>=b?a:b
+    for(let i=0;i<halfLength;i++){
+         for(let j=0;j<halfLength;j++){
+        let first=matrix[i][j]
+        let second=matrix[i][length-j-1]
+        let topMax=returnBigger(first, second)
+        let third=matrix[length-i-1][j]
+        let fourth=matrix[length-1-i][length-j-1]
+        let bottomMax=returnBigger(third, fourth)
+        let max=returnBigger(topMax, bottomMax)
+        maxSum+=max}}
+return maxSum}
